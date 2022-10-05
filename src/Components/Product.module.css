@@ -1,0 +1,57 @@
+.Product{
+    display: grid;
+    width: 100%;
+    margin-left: 0px;
+    height: 850px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(10,400px);
+    gap: 180px;
+    background-color: white;
+}
+.button31 {
+    background-color: #222;
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    line-height: 1;
+    margin:10px;
+    max-width: none;
+    min-height: 44px;
+    min-width: 10px;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 20px 8px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 10%;
+  }
+  .any{
+    text-align: centre;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button31:hover,
+  .button31:focus {
+    opacity: .75;
+  }
+  .centre{
+    padding: 20px;
+  }
+  .button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 1300px;
+  }
